@@ -2,7 +2,7 @@ import sys
 import re
 from PyQt5 import QtCore
 from PyQt5.QtWidgets import (QApplication, QDialog, QTableWidgetItem,
-                             QHeaderView, QCheckBox, QPushButton, QHBoxLayout, QFileDialog, QMenu)
+                             QHeaderView, QCheckBox, QPushButton, QHBoxLayout, QFileDialog, QMenu, QLineEdit, QTextEdit, QVBoxLayout)
 from PyQt5.QtCore import QTimer, Qt
 from PyQt5 import QtGui
 import serial
@@ -14,7 +14,6 @@ class MyDialog(QDialog, Ui_Dialog):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
-
 
         # Настройка светлого стиля
         self.setStyleSheet("""
@@ -50,7 +49,7 @@ class MyDialog(QDialog, Ui_Dialog):
             table.verticalScrollBar().valueChanged.connect(self.sync_scroll)
             table.itemSelectionChanged.connect(self.sync_selection)
             table.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
-            table.customContextMenuRequested.connect(self.contextMenuEvent)
+            table.customContextMenuRequested.connect(self.show_context_menu)
 
         # Таймер для чтения данных
         self.read_timer = QTimer()
@@ -71,13 +70,34 @@ class MyDialog(QDialog, Ui_Dialog):
 
         # Поиск и подсветка текста
         self.lineEdit.textChanged.connect(self.search_text)
-        self.lineEdit.keyPressEvent = self.keyPressEvent  # Обработка нажатия клавиш
+
+        # Кнопки для навигации по результатам поиска
+        self.search_prev_button.clicked.connect(self.search_previous)
+        self.search_next_button.clicked.connect(self.search_next)
 
         self.update_ports()
 
     def add_controls(self):
         """Добавление новых элементов управления"""
-        # Создаем горизонтальный layout
+        # Создаем горизонтальный layout для поиска
+        search_layout = QHBoxLayout()
+
+        # Поле для ввода текста поиска
+        self.lineEdit = QLineEdit(self)
+        search_layout.addWidget(self.lineEdit)
+
+        # Кнопка для поиска предыдущего найденного варианта
+        self.search_prev_button = QPushButton("<", self)
+        search_layout.addWidget(self.search_prev_button)
+
+        # Кнопка для поиска следующего найденного варианта
+        self.search_next_button = QPushButton(">", self)
+        search_layout.addWidget(self.search_next_button)
+
+        # Добавляем layout в основной интерфейс
+        self.verticalLayout.insertLayout(0, search_layout)
+
+        # Создаем горизонтальный layout для управления таблицами
         control_layout = QHBoxLayout()
 
         # Кнопка очистки таблиц
@@ -92,7 +112,7 @@ class MyDialog(QDialog, Ui_Dialog):
         control_layout.addWidget(self.auto_scroll_check)
 
         # Добавляем layout в основной интерфейс
-        self.verticalLayout.insertLayout(0, control_layout)
+        self.verticalLayout.insertLayout(1, control_layout)
 
     def update_controls_state(self):
         """Обновление состояния элементов управления"""
@@ -272,6 +292,7 @@ class MyDialog(QDialog, Ui_Dialog):
     def search_text(self):
         """Поиск и подсветка текста в textEdit_2"""
         search_text = self.lineEdit.text()
+        print(f"Searching for: {search_text}")  # Debugging statement
         cursor = self.textEdit_2.textCursor()
 
         # Сбрасываем форматирование
@@ -287,30 +308,28 @@ class MyDialog(QDialog, Ui_Dialog):
             while self.textEdit_2.find(search_text):
                 cursor.mergeCharFormat(format)
 
-    def keyPressEvent(self, event):
-        """Обработка нажатия клавиш"""
-        if event.key() == Qt.Key_Down:
-            self.search_next()
-        else:
-            super().keyPressEvent(event)  # Важно: вызов базового метода
-
-
     def search_next(self):
         """Поиск следующего совпадения"""
         cursor = self.textEdit_2.textCursor()
         if cursor.hasSelection():
-            cursor.clearSelection()
             cursor.movePosition(QtGui.QTextCursor.NextWord)
-        self.textEdit_2.setTextCursor(cursor)
         self.search_text()
 
-    def contextMenuEvent(self, event):
+    def search_previous(self):
+        """Поиск предыдущего совпадения"""
+        cursor = self.textEdit_2.textCursor()
+        if cursor.hasSelection():
+            cursor.movePosition(QtGui.QTextCursor.PreviousWord)
+        self.search_text()
+
+    def show_context_menu(self, pos):
         """Контекстное меню для таблиц и текстовых полей"""
         menu = QMenu(self)
         send_to_notepad_action = menu.addAction("Отправить выбранный текст в Notepad")
 
         # Используем глобальные координаты через mapToGlobal
-        action = menu.exec_(self.mapToGlobal(event.pos()))  # Исправлено
+        global_pos = self.sender().mapToGlobal(pos)
+        action = menu.exec_(global_pos)
 
         if action == send_to_notepad_action:
             selected_text = ""
@@ -323,6 +342,7 @@ class MyDialog(QDialog, Ui_Dialog):
 
             if selected_text:
                 self.textEdit.append(selected_text)
+
     def enterEvent(self, event):
         """Отключение auto_scroll при наведении мыши на таблицу"""
         self.auto_scroll = False
