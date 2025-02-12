@@ -10,6 +10,9 @@ from serial.tools import list_ports
 from form_ui import Ui_Dialog
 
 
+
+
+
 class MyDialog(QDialog, Ui_Dialog):
     def __init__(self):
         super().__init__()
