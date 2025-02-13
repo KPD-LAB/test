@@ -1,0 +1,369 @@
+[
+    {
+        "bestSell": false,
+        "classId": 1,
+        "cupTypeList": {
+            "2": 210
+        },
+        "defaultCupType": 2,
+        "nameCN": "Двойной Эспрессо",
+        "order": 1,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 2,
+        "cupTypeList": {
+            "0": 827,
+			"2": 102
+        },
+        "defaultCupType": 2,
+        "nameCN": "Капучино",
+        "order": 2,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 3,
+        "cupTypeList": {
+            "0": 831,
+			"2": 246
+        },
+        "defaultCupType": 2,
+        "nameCN": "Латте",
+        "order": 3,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 4,
+        "cupTypeList": {
+            "0": 828,
+			"2": 240
+        },
+        "defaultCupType": 2,
+        "nameCN": "Макиато",
+        "order": 4,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 5,
+        "cupTypeList": {
+            "2": 103
+        },
+        "defaultCupType": 2,
+        "nameCN": "Эспрессо",
+        "order": 5,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 6,
+        "cupTypeList": {
+            "0": 829,
+			"2": 106
+        },
+        "defaultCupType": 2,
+        "nameCN": "Американо",
+        "order": 6,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 7,
+        "cupTypeList": {
+            "0": 834,
+			"2": 800
+        },
+        "defaultCupType": 2,
+        "nameCN": "Горячий шоколад",
+        "order": 7,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 8,
+        "cupTypeList": {
+            "2": 468
+        },
+        "defaultCupType": 2,
+        "nameCN": "Ристретто",
+        "order": 8,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 9,
+        "cupTypeList": {
+            "0": 1535,
+			"2": 220
+        },
+        "defaultCupType": 2,
+        "nameCN": "Эспрессо Шоколадный",
+        "order": 9,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 10,
+        "cupTypeList": {
+            "0": 1536,
+			"2": 404
+        },
+        "defaultCupType": 2,
+        "nameCN": "Кокосовый Раф",
+        "order": 10,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 11,
+        "cupTypeList": {
+            "0": 1537,
+			"2": 1428
+        },
+        "defaultCupType": 2,
+        "nameCN": "Кокосовый Капучино",
+        "order": 11,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 12,
+        "cupTypeList": {
+            "0": 1538,
+			"2": 609
+        },
+        "defaultCupType": 2,
+        "nameCN": "Кокосовый Латте",
+        "order": 12,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 13,
+        "cupTypeList": {
+            "2": 204
+        },
+        "defaultCupType": 2,
+        "nameCN": "Лунго",
+        "order": 13,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 14,
+        "cupTypeList": {
+            "0": 1534,
+			"2": 572
+        },
+        "defaultCupType": 2,
+        "nameCN": "Мокачино",
+        "order": 14,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 15,
+        "cupTypeList": {
+            "0": 416,
+			"2": 236
+        },
+        "defaultCupType": 2,
+        "nameCN": "Флэт Уайт",
+        "order": 15,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 16,
+        "cupTypeList": {
+            "0": 835,
+			"2": 802
+        },
+        "defaultCupType": 2,
+        "nameCN": "Молочный Шоколад",
+        "order": 16,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 17,
+        "cupTypeList": {
+            "2": 229
+        },
+        "defaultCupType": 2,
+        "nameCN": "Кокосовый Шоколад",
+        "order": 17,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 18,
+        "cupTypeList": {
+            "0": 1540,
+			"2": 1539
+        },
+        "defaultCupType": 2,
+        "nameCN": "Чай Малиновый",
+        "order": 18,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 19,
+        "cupTypeList": {
+            "0": 1541,
+			"2": 813
+        },
+        "defaultCupType": 2,
+        "nameCN": "Чай Лимонный",
+        "order": 19,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 20,
+        "cupTypeList": {
+            "0": 1542,
+			"2": 821
+        },
+        "defaultCupType": 2,
+        "nameCN": "Ореховый Капучино",
+        "order": 20,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 21,
+        "cupTypeList": {
+            "0": 1544,
+			"2": 1543
+        },
+        "defaultCupType": 2,
+        "nameCN": "капучино соленая карамель",
+        "order": 21,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 22,
+        "cupTypeList": {
+            "0": 1545,
+			"2": 336
+        },
+        "defaultCupType": 2,
+        "nameCN": "ореховый латте",
+        "order": 22,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 23,
+        "cupTypeList": {
+            "0": 1547,
+			"2": 1546
+        },
+        "defaultCupType": 2,
+        "nameCN": "латте соленая карамель",
+        "order": 23,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 24,
+        "cupTypeList": {
+            "0": 1548,
+			"2": 314
+        },
+        "defaultCupType": 2,
+        "nameCN": "ореховый мокко",
+        "order": 24,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 25,
+        "cupTypeList": {
+            "0": 1550,
+			"2": 1549
+        },
+        "defaultCupType": 2,
+        "nameCN": "мокко соленая карамель",
+        "order": 25,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 26,
+        "cupTypeList": {
+            "0": 1552,
+			"2": 1551
+        },
+        "defaultCupType": 2,
+        "nameCN": "мокко фисташка",
+        "order": 26,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 27,
+        "cupTypeList": {
+            "0": 1554,
+			"2": 1553
+        },
+        "defaultCupType": 2,
+        "nameCN": "мокко ирландские сливки",
+        "order": 27,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 28,
+        "cupTypeList": {
+            "0": 1556,
+			"2": 1555
+        },
+        "defaultCupType": 2,
+        "nameCN": "капучино фисташка",
+        "order": 28,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 29,
+        "cupTypeList": {
+            "0": 1558,
+			"2": 1557
+        },
+        "defaultCupType": 2,
+        "nameCN": "капучино ирландские сливки",
+        "order": 29,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 30,
+        "cupTypeList": {
+            "0": 1560,
+			"2": 1559
+        },
+        "defaultCupType": 2,
+        "nameCN": "латте фисташка",
+        "order": 30,
+        "visible": true
+    },
+	{
+        "bestSell": false,
+        "classId": 31,
+        "cupTypeList": {
+            "0": 1562,
+			"2": 1561
+        },
+        "defaultCupType": 2,
+        "nameCN": "латте ирландские сливки",
+        "order": 31,
+        "visible": true
+    }
+]

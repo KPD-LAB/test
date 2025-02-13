@@ -1,0 +1,63 @@
+{
+    "data": [
+        {
+            "canister_id": 170,
+            "canister_name": "Кофейное зерно",
+            "desc": "咖啡豆料盒",
+            "isClean": false,
+            "is_showed": 1,
+            "material_id": 10009,
+			"time": 3,
+            "test_results": 15
+        },
+        {
+            "canister_id": 0,
+            "canister_name": "Вода",
+            "desc": "料盒0",
+            "isClean": false,
+            "is_showed": 0,
+            "material_id": 10007,
+            "test_results": 20
+        },
+        {
+            "canister_id": 1,
+            "canister_name": "растворимый порошок",
+            "desc": "料盒1",
+            "isClean": false,
+            "is_showed": 1,
+            "material_id": 10090,
+			"time": 3,
+            "test_results": 10
+        },
+        {
+            "canister_id": 2,
+            "canister_name": "Молоко",
+            "desc": "料盒2",
+            "isClean": false,
+            "is_showed": 1,
+            "material_id": 10008,
+			"time": 3,
+            "test_results": 10
+        },
+        {
+            "canister_id": 3,
+            "canister_name": "Шоколад",
+            "desc": "料盒3",
+            "isClean": false,
+            "is_showed": 1,
+            "material_id": 10006,
+			"time": 3,
+            "test_results": 10
+        }
+    ],
+    "desc": {
+        "docdesc": "本文件为料盒配置文件",
+        "desc": "该料盒的名称",
+        "canister_id": "料盒ID",
+        "canister_name": "料盒名称",
+        "canister_name_lang": "料盒名称,适配多个国家语言",
+        "material_id": "物料ID",
+        "test_results": "一定时间的掉粉重量",
+        "is_showed": "是否显示"
+    }
+}

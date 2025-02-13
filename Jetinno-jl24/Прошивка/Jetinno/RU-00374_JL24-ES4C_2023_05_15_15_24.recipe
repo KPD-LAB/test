@@ -1,0 +1,1891 @@
+[
+    {
+        "canisterIds": "170,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "90",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "recipeName": "Двойной Эспрессо",
+        "stepses": [
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "75",
+                "gradientWeight": "8",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "75",
+                "gradientWeight": "8",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170,2",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Капучино",
+        "stepses": [
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "90",
+                "gradientWeight": "10",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60.0",
+                "delayTime": "0.0",
+                "canisterId": "2",
+                "waterVolume": "90",
+                "gradientWeight": "20",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "40",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Латте",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0.0",
+                "canisterId": "2",
+                "waterVolume": "110",
+                "gradientWeight": "20",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0.0",
+                "canisterId": "170",
+                "waterVolume": "60",
+                "gradientWeight": "11.0",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170,2",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "40",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Макиато",
+        "stepses": [
+            {
+                "delayTime": "0.0",
+                "canisterId": "170",
+                "waterVolume": "120",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "120",
+                "delayTime": "0.0",
+                "canisterId": "2",
+                "waterVolume": "90",
+                "gradientWeight": "10",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "90",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "recipeName": "Эспрессо",
+        "stepses": [
+            {
+                "delayTime": "0.0",
+                "canisterId": "170",
+                "waterVolume": "75",
+                "gradientWeight": "8",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170,0",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "60",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "recipeName": "Американо",
+        "stepses": [
+            {
+                "delayTime": "0.0",
+                "canisterId": "170",
+                "waterVolume": "100",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0"
+            },
+            {
+                "recipeOutOrder": "1",
+                "delayTime": "0",
+                "canisterId": "0",
+                "waterVolume": "120"
+            }
+        ]
+    },
+    {
+        "canisterIds": "3",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Горячий шоколад",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0.0",
+                "canisterId": "3",
+                "waterVolume": "210",
+                "gradientWeight": "22.0",
+                "recipeOutOrder": "1",
+                "tempType": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "90",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "recipeName": "Ристретто",
+        "stepses": [
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "40",
+                "gradientWeight": "6",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "3,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "90",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Эспрессо Шоколадный",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "3",
+                "waterVolume": "130",
+                "gradientWeight": "10",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "75",
+                "gradientWeight": "8",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170,2,1",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "40",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Кокосовый Раф",
+        "stepses": [
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "100",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "50",
+                "gradientWeight": "5",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "70",
+                "gradientWeight": "7",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170,1",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Кокосовый Капучино",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "60",
+                "gradientWeight": "5",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "50",
+                "gradientWeight": "6",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1,2,170",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Кокосовый Латте",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "70",
+                "gradientWeight": "7",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "70",
+                "gradientWeight": "8",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "60",
+                "gradientWeight": "12",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "40",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "recipeName": "Лунго",
+        "stepses": [
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "180",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "3,2,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "40",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Мокачино",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "3",
+                "waterVolume": "60",
+                "gradientWeight": "10",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "70",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "60",
+                "gradientWeight": "11",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170,2",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Флэт Уайт",
+        "stepses": [
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "100",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "90",
+                "gradientWeight": "15",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "3,2",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Молочный Шоколад",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "3",
+                "waterVolume": "80",
+                "gradientWeight": "16",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "13",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1,3",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Кокосовый Шоколад",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "90",
+                "gradientWeight": "13",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "3",
+                "waterVolume": "100",
+                "gradientWeight": "16",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170,0",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "recipeName": "Американо 350",
+        "stepses": [
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "165",
+                "gradientWeight": "16",
+                "recipeOutOrder": "0"
+            },
+            {
+                "recipeOutOrder": "1",
+                "delayTime": "0",
+                "canisterId": "0",
+                "waterVolume": "160"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170,2",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Капучино 350",
+        "stepses": [
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "150",
+                "gradientWeight": "14",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "160",
+                "gradientWeight": "25",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170,2",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Латте 350",
+        "stepses": [
+            {
+                "mixSpeed": "30",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "110",
+                "gradientWeight": "20",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "80",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "120",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "10",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "3,2,170",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "40",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Мокачино 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "3",
+                "waterVolume": "80",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "105",
+                "gradientWeight": "18",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "100",
+                "gradientWeight": "12",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170,2",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "70",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Флэт вайт 350",
+        "stepses": [
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "180",
+                "gradientWeight": "14",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "150",
+                "gradientWeight": "25",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170,2",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Макиато 350",
+        "stepses": [
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "200",
+                "gradientWeight": "16",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "120",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "130",
+                "gradientWeight": "15",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "3",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Горячий шоколад 350",
+        "stepses": [
+            {
+                "mixSpeed": "70",
+                "delayTime": "0",
+                "canisterId": "3",
+                "waterVolume": "280",
+                "gradientWeight": "40",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "3,2",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Молочный шоколад 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "3",
+                "waterVolume": "150",
+                "gradientWeight": "22",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "100",
+                "gradientWeight": "16",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "3,170",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "эспрессо с шоколадом 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "3",
+                "waterVolume": "200",
+                "gradientWeight": "20",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "150",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            }
+        ]
+    },
+    {
+        "canisterIds": "170,2,1",
+        "esAttr": {
+            "prebrewingTime": "0",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "1.5",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "2"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "кокосовый РАФ 350",
+        "stepses": [
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "120",
+                "gradientWeight": "14",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "70",
+                "gradientWeight": "7",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "90",
+                "gradientWeight": "11",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170,1",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Кокосовый Капучино 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "10",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "14",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "100",
+                "gradientWeight": "15",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1,2,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Кокосовый Латте 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "90",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "14",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+	{
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Чай Малиновый",
+        "stepses": [
+            {
+                "mixSpeed": "0",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "200",
+                "gradientWeight": "13",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Чай Лимонный",
+        "stepses": [
+            {
+                "mixSpeed": "0",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "200",
+                "gradientWeight": "13",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Чай Малиновый 350",
+        "stepses": [
+            {
+                "mixSpeed": "0",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "300",
+                "gradientWeight": "19",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Чай Лимонный 350",
+        "stepses": [
+            {
+                "mixSpeed": "0",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "300",
+                "gradientWeight": "19",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170,1",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "60",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Ореховый Капучино",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "60",
+                "gradientWeight": "5",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "50",
+                "gradientWeight": "6",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170,1",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "Ореховый Капучино 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "10",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "14",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "100",
+                "gradientWeight": "15",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170,1",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "капучино соленая карамель",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "60",
+                "gradientWeight": "5",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "50",
+                "gradientWeight": "6",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170,1",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "капучино соленая карамель 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "10",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "14",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "100",
+                "gradientWeight": "15",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1,2,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "ореховый латте",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "70",
+                "gradientWeight": "7",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "70",
+                "gradientWeight": "8",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "60",
+                "gradientWeight": "12",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1,2,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "ореховый латте 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "90",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "14",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1,2,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "латте соленая карамель",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "70",
+                "gradientWeight": "7",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "70",
+                "gradientWeight": "8",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "60",
+                "gradientWeight": "12",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1,2,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "латте соленая карамель 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "90",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "14",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "ореховый мокко",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "200",
+                "gradientWeight": "18",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "ореховый мокко 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "300",
+                "gradientWeight": "28",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "мокко соленая карамель",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "200",
+                "gradientWeight": "18",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "мокко соленая карамель 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "300",
+                "gradientWeight": "28",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "мокко фисташка",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "200",
+                "gradientWeight": "18",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "мокко фисташка 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "300",
+                "gradientWeight": "28",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "мокко ирландские сливки",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "200",
+                "gradientWeight": "18",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "мокко ирландские сливки 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "300",
+                "gradientWeight": "28",
+                "recipeOutOrder": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170,1",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "капучино фисташка",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "60",
+                "gradientWeight": "5",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "50",
+                "gradientWeight": "6",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170,1",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "капучино фисташка 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "10",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "14",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "100",
+                "gradientWeight": "15",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170,1",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "капучино ирландские сливки",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "60",
+                "gradientWeight": "5",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "50",
+                "gradientWeight": "6",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2,170,1",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "капучино ирландские сливки 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "10",
+                "recipeOutOrder": "0"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "14",
+                "recipeOutOrder": "1"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "100",
+                "gradientWeight": "15",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1,2,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "60",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "латте фисташка",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "70",
+                "gradientWeight": "7",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "70",
+                "gradientWeight": "8",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "60",
+                "gradientWeight": "12",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1,2,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "латте фисташка 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "90",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "14",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1,2,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "60",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "латте ирландские сливки",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "70",
+                "gradientWeight": "7",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "70",
+                "gradientWeight": "8",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "60",
+                "gradientWeight": "12",
+                "recipeOutOrder": "2"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1,2,170",
+        "esAttr": {
+            "prebrewingTime": "3",
+            "prebrewingWaterRatio": "15",
+            "restorationTime": "0.2",
+            "secondSqueezeTime": "3",
+            "squeezeForce": "30",
+			"secondSqueezeForce": "90",
+            "squeezeTime": "3"
+        },
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "латте ирландские сливки 350",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "90",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0"
+            },
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "80",
+                "gradientWeight": "12",
+                "recipeOutOrder": "1"
+            },
+            {
+                "delayTime": "0",
+                "canisterId": "170",
+                "waterVolume": "85",
+                "gradientWeight": "14",
+                "recipeOutOrder": "2"
+            }
+        ]
+    }
+]
